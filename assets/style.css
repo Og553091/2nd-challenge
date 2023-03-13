@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+background-color: rgb(255, 255, 255);
+
+
+
+}
+
+
+header{
+display: flex;
+    
+    border: 10px solid darkblue;
+    background-color: lightblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ li {
+list-style: none;
+display: inline;
+
+text-decoration: solid;
+
+
+}
+
+h1 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+
+
+}
