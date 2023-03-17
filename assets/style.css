@@ -11,49 +11,117 @@
 
 
 
-body{
-background-color: rgb(255, 255, 255);
+ body{ 
+ background-color: rgb(88, 85, 85); 
 
 
-
-}
+margin: 0%;
+ } 
 
 
 header{
 display: flex;
     
-    border: 10px solid darkblue;
+    border: 10px  darkblue;
     background-color: lightblue;
+border-radius: 20px;
+border-style: double;
 
+}
+
+
+#back {
+background-image: url(./photos/157903943-abstract-background-dark-blue-with-modern-silver-line-stripes-decoration-vector-illustration-for.webp);
+width: auto;
+height: 100px;
+background-position: center;
+background-size: cover;
+margin-left: 0px;
+}
+
+
+h3 {
+    text-align: center;
 }
 
 
 
 
+header ul {
+margin-left: auto;
+
+padding-top: 50px;
+padding-right: 20px;
+}
+
+
+li:hover 
+ 
+{
+cursor: grab;
 
 
 
 
+}
+.work img {
 
+width: 200px;
+height: 200px;
 
+}
+.footer ul  {
 
+text-align: center;
+height: 100px;
 
-
-
+}
+.footer{
+    
+}
 
 
  li {
 list-style: none;
 display: inline;
-
+margin-left: 10px;
 text-decoration: solid;
-
-
+font-size: 20px;
+text-decoration: underline;
 }
 
 h1 {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bolder;
+background-color:rgb(0, 36, 196);
+
+color: rgb(233, 237, 255);
+}
+
+h2 {
+font-size: 50px;
+color: rgb(0,36,196);
+
+}
+p {
+
+font-size: 20px;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+.aboutMe img {
+height: 250px;
+width: 250px;
+
+border: 80px;
+
+}
+.aboutMe {
+display: flex;
+
 
 
 }
