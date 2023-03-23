@@ -12,8 +12,8 @@
 
 
  body{ 
- background-color: rgb(88, 85, 85); 
-
+ background-color: rgb(241, 233, 233); 
+display: inline;
 
 margin: 0%;
  } 
@@ -28,7 +28,12 @@ border-radius: 20px;
 border-style: double;
 
 }
+#back h2 {
+    padding-top: 2%;
+color: aquamarine;
+text-align: end;
 
+}
 
 #back {
 background-image: url(./photos/157903943-abstract-background-dark-blue-with-modern-silver-line-stripes-decoration-vector-illustration-for.webp);
@@ -59,11 +64,20 @@ li:hover
  
 {
 cursor: grab;
+}
+
+.aboutMe h2{
 
 
 
 
 }
+
+
+
+
+
+
 .work img {
 
 width: 200px;
@@ -77,7 +91,8 @@ height: 100px;
 
 }
 .footer{
-    
+    border: 10px blue solid;
+    height: 100px;
 }
 
 
@@ -103,24 +118,53 @@ font-size: 50px;
 color: rgb(0,36,196);
 
 }
-p {
+.aboutMe p {
 
 font-size: 20px;
 font-style: italic;
-font-family: 'Times New Roman', Times, serif;
+font-family: fantasy;
 
 
+
+box-shadow: 20px, black;
+display: inline;
+grid-gap: 20px;
+/* grid-row: 1; */
 
 }
-.aboutMe img {
+ img {
 height: 250px;
 width: 250px;
-
-border: 80px;
-
+grid-row: 1;
+border: 10px rgb(0, 0, 0) double;
+grid-column: 2;
 }
 .aboutMe {
 display: flex;
+
+
+padding-top: 10%;
+}   
+
+.titles{
+display: inline-block;
+align-content:center ;
+border-right: 20px black double;
+border-color: blue
+}
+.para{
+display: inline-block;
+width: 400px;
+margin-left: 15px;
+;
+}
+.ps5{
+
+ grid-row: 3;
+grid-column: 4;
+}
+.work {
+display: grid;
 
 
 
